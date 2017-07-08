@@ -1,0 +1,245 @@
+
+  #header {
+    background-color: #EDD834;
+    padding: 5px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+  }  
+
+
+
+.logo a{
+    
+    background-image: url(images/pro-football-weekly-shared.png) ; 
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40px;
+    
+    
+}
+    
+
+
+.menu li{
+    padding-right: 20px;
+}
+
+.menu li:hover{
+    color:#ffc;
+    cursor: pointer;
+}    
+
+.box {
+    float: right;
+    width: 20%;
+    padding: auto;
+}
+
+
+.menu {
+    float: right;
+    width: 40%;
+     
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: flex-end;
+    
+  
+}
+ .left-menu {
+     position: absolute;   
+     height: 100vh;
+     background-color:#C61357 ;
+     display: flex;
+    align-items: center;
+     
+ }
+
+.logo {
+    display: flex;
+    padding: 5px 10px;
+    max-width: 40%;
+}
+
+.left-menu ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-left: 10px;
+    margin-right: 5px;
+    padding: 0; /* Убираем поля */
+    margin-left: 20px;
+       
+    
+}
+a {
+    text-decoration: none
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+    
+
+.left-menu li{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.left-menu img{
+    width: 20%;
+}
+.main-content{
+    background-color: rgba(52, 152, 219,0.4);
+}
+.content-1{
+   background-image: url(images/Emirates.jpg);
+   background-size: cover ;
+    width: 100%;  
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    background-repeat: no-repeat;
+   
+}
+
+
+.content-block {
+      display: flex;
+      flex-direction: column;
+      max-width: 70%;
+     
+      font-family: 'Lobster', cursive;
+      color: #FFFCF5;
+      font-size: 20px;
+      padding: 20px;
+      margin-top: 10%;
+      
+      
+      
+    
+}
+
+
+.content-2 {
+    color: #336E7B;
+    width: 100%;  
+    display: flex;
+    justify-content: space-around;
+  
+    
+}
+
+
+
+.footer {
+    width: 70%;
+    float: left;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    
+
+        
+}
+.footer a{
+    width: 20%;
+    color: #F24D16;
+    
+        
+}
+
+footer{
+    width: 100%;;
+    background-color:#EDD834 ;  
+    font-family: 'Lobster', cursive;
+    padding: 10px 0;
+    
+}
+
+.icon {
+    float: right;
+    width: 20%;
+}
+.icon img {
+    width:  10%;
+    padding: 5px 10px;
+}
+
+footer::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.media {
+    
+    width: 40%;
+    padding: auto;
+}
+.media img{
+    width: 100%;
+}
+
+
+
+
+.content-block a {
+        align-self: flex-end;
+        color: #FF3209;
+        
+    }
+    .blog {
+        max-width: 40%; 
+        border: 5px outset #FD7150;
+        padding: 20px;
+        float: right;
+        
+
+    }
+    .blog img{
+         border-radius: 40%;
+
+         padding: 5px;
+         float: left;
+         text-align: center;
+         margin: auto;
+            
+      
+    }
+   
+
+.autor{ 
+    float: left;
+    position: relative;
+    width: 40%;
+    text-align: center;
+
+
+}
+
+form{
+        width:20%;
+        float: right;
+}
+.search { 
+        padding:6px 15px 6px 30px;
+        margin:3px; 
+        background: url('images/seach.png') no-repeat 8px 6px; 
+        background-size: 20px; 
+        
+}
+
+.rounded { 
+        border-radius:15px; 
+         
+}
+
