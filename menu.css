@@ -8,9 +8,12 @@
 @media screen and (min-width: 1000px) {
     .menu {
          width:40%; 
-               
+           
     }
 
+    .menu a{
+ text-decoration: none;    
+    }
  
 .menu ul {
     display: flex;
@@ -48,13 +51,14 @@
         order: 3;
         z-index: 999999;
         margin-right: 20px;
-        
+       
     }
    
     .menu ul.active {
         display:none;
                
     }
+    
  
     .menu ul {
         
@@ -78,6 +82,7 @@
  
     .menu a {
         display:block;
+         text-decoration: none; 
         
     }
  
