@@ -1,0 +1,39 @@
+
+ .left-menu {
+     position: absolute;   
+     height: 100vh;
+     background-color:rgba(31, 58, 147,0.5) ;
+     display: flex;
+     align-items: center;
+     
+ }
+
+
+
+.left-menu ul {
+    margin-left: 10px;
+    margin-right: 5px;
+    padding: 0; /* Убираем поля */
+    margin-left: 20px;
+       
+    
+}
+a {
+    text-decoration: none
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+    
+
+.left-menu li{
+    padding: 10px;
+    margin: 10px;
+   list-style-type: none;
+}
+
+.left-menu img{
+    width: 20%;
+}
